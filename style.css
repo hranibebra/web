@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif,  sans-serif; /* Семейство шрифтов */
+    font-size: 25px; /* Размер основного шрифта в <p></p>  */
+    background-color: #0c0f1e; /* Цвет фона веб-страницы */
+    color: #b7b7b7; /* Цвет основного текста */
+
+    font-weight: 700;
+
+  /* подстраиваем ширину заголовка под самое длинное слово*/
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+
+  /* делаем автоматические отступы */
+  margin: auto;
+    }
+
+button {
+    padding: 20px 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size:
+    50px;
+    background-color: #0c0f1e;
+    border: 4px solid #882fcd
+    }
+
+button:hover {
+  background-color:#882fcd
+}
+    
+h1 {
+    color: #21e021; /* Цвет заголовка */
+    font-size: 50px; /* Размер шрифта в пунктах */
+    font-family: sans-serif,  sans-serif; /* Семейство шрифтов */
+      /* переводим все буквы в заглавные */
+    text-transform: uppercase; 
+    font-size: 6vw;
+    font-weight: 750;
+    }
+h2 {
+    color: #882fcd; /* Цвет заголовка */
+    text-align: match-parent
+    font-family: sans-serif,  sans-serif;
+      /* переводим все буквы в заглавные */
+    text-transform: uppercase; 
+    font-size: 5 vw;
+    }
+
+h4 {
+    color: #f3beff; /* Цвет заголовка */
+    text-align: match-parent
+    font-family: sans-serif,  sans-serif;
+    /* переводим все буквы в заглавные */
+    text-transform: uppercase; 
+    font-size:  1 vw;
+    font-weight: 550;
+}
+h5 {
+  color: #fef9ff; /* Цвет заголовка */
+  text-align: match-parent
+  font-family: sans-serif,  sans-serif;
+  /* переводим все буквы в заглавные */
+  text-transform: uppercase; 
+  font-size:  2vw;
+  font-weight: 650;
+}
+h3 {
+  color: #882fcd; /* Цвет заголовка */
+  text-align: match-parent
+  font-family: sans-serif,  sans-serif;
+  /* переводим все буквы в заглавные */
+  text-transform: uppercase; 
+  font-size:  2vw;
+  font-weight: 750;
+}
+li::marker {
+  color: #882fcd; /* Маркеры окрасятся в красный цвет, текст останется без изменений */
+  }
+  @keyframes colorh5 {
+    0% {
+      color: #248aca;
+    }
+  
+    50% {
+      color: #882fcd;
+    }
+  
+    100% {
+      color: #248aca;
+    }
+}
+
+h5 {
+    animation: colorh5 3s infinite;
+}
+
+
+li::marker {
+    color: #882fcd; /* Маркеры окрасятся в красный цвет, текст останется без изменений */
+    }
+    @keyframes color-change {
+      0% {
+        color: #67e021;
+      }
+    
+      50% {
+        color: #21e021;
+      }
+    
+      100% {
+        color: #67e021;
+      }
+  }
+  
+  h1 {
+      animation: color-change 3s infinite;
+  }
